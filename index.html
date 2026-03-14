@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CyberShield Security Scanner</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h1>CyberShield Security Scanner</h1>
+
+<div class="scanner-box">
+
+<input type="text" id="urlInput" placeholder="Enter website domain">
+
+<button onclick="scanWebsite()">Scan Website</button>
+
+<pre id="result"></pre>
+
+<div class="meter">
+<div id="scoreBar"></div>
+</div>
+
+<p id="scoreText"></p>
+
+<ul id="suggestions"></ul>
+
+<canvas id="securityChart"></canvas>
+
+<div id="aiExplain"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
