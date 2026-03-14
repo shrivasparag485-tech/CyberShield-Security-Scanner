@@ -28,10 +28,10 @@ text-shadow:0 0 10px rgba(255,106,0,0.7);
 .scanner-box{
 background:#020617;
 border:1px solid #ff6a00;
-padding:25px;
+padding:30px;
 margin-top:40px;
 width:90%;
-max-width:500px;
+max-width:650px;
 border-radius:10px;
 box-shadow:0 0 15px rgba(255,106,0,0.25);
 display:flex;
@@ -132,4 +132,17 @@ object-fit: cover;
 .container{
 background: rgba(0,0,0,0.6);
 backdrop-filter: blur(6px);
+}
+
+
+@media(min-width:900px){
+
+.scanner-box{
+padding:40px;
+}
+
+pre{
+height:180px;
+}
+
 }
